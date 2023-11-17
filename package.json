@@ -1,13 +1,17 @@
 {
   "name": "modal-opener-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Show modal with any content inside this component",
   "main": "dist/index.js",
   "scripts": {
     "start": "webpack --mode development --watch",
     "build": "webpack --mode production"
   },
-  "keywords": ["modal", "modal", "component"],
+  "keywords": [
+    "modal",
+    "modal",
+    "component"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/zakariabinsaifullah/modal-opener-component"
