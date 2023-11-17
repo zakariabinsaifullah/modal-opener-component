@@ -58,16 +58,14 @@ Add all available props
     onOpen={()=> console.log('the modal wants to open')}
     onClose={() => console.log('the modal is closed')}
 >
-      <h5>Modal Title</h5>
-      <p>
-        Modal description goes here. Great to see you, man. Are you okay with
-        us?
-      </p>
-      <button>Learn More </button>
+    <h5>Modal Title</h5>
+    <p>
+    Modal description goes here. Great to see you, man. Are you okay with
+    us?
+    </p>
+    <button>Learn More </button>
 </ModalOpenerComponent>
 ```
-Now, total 5 stars are visible but 4.5 stars are filled and one half is unfilled.
-
 
 ## License
 
