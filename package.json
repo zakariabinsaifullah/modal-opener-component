@@ -7,11 +7,11 @@
     "start": "webpack --mode development --watch",
     "build": "webpack --mode production"
   },
-  "keywords": [
-    "modal",
-    "modal",
-    "component"
-  ],
+  "keywords": ["modal", "modal", "component"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zakariabinsaifullah/modal-opener-component"
+  },
   "author": "Zakaria Binsaifullah",
   "license": "MIT",
   "devDependencies": {
