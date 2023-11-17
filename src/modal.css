@@ -1,0 +1,40 @@
+/* Modal.css */
+.moc-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.moc-modal {
+    background: #fff;
+    padding: 30px 15px 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    max-width: 80%;
+    box-sizing: border-box;
+}
+
+.moc-close-btn {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.moc-btn {
+    background-color: #0766ad;
+    padding: 8px 16px;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: clamp(13px, 5vw, 14px);
+}
